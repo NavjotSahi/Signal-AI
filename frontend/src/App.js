@@ -5,7 +5,7 @@ import CreateIncidentForm from "./CreateIncidentForm";
 
 // The backend API is running on port 8000
 // We define this so we don't have to type it out every time.
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = process.env.REACT_APP_API_URL || "http://127.0.0.1:8000";
 
 function App() {
   // 'incidents' will hold our list of incidents from the API

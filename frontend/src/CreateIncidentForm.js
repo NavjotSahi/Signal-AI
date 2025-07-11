@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./CreateIncidentForm.css";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = process.env.REACT_APP_API_URL || "http://127.0.0.1:8000";
 
 // We accept a function 'onIncidentCreated' as a prop
 // to notify the parent component (App.js) when we're done.

@@ -80,7 +80,7 @@ app = FastAPI(
 # Define allowed origins
 origins = [
     "http://localhost:3000", # For local development
-    # We will add the deployed frontend URL here later, but it's good to prepare
+    https://incident-platform-api.onrender.com
 ]
 
 app.add_middleware(
