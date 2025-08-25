@@ -2,7 +2,7 @@
 
 A full-stack, AI-driven web application designed to streamline IT incident management. This platform allows users to log new incidents, which are then automatically classified by an AI model. Teams can track and update the status of incidents through a clean, interactive dashboard.
 
-**Live Demo:** **[https://incident-platform-ui.onrender.com/](https://incident-platform-ui.onrender.com/)**
+**Live Demo:** **[https://incident-platform-ui.onrender.com/](https://incident-platform-ui-o2nm.onrender.com)**
 
 ---
 
